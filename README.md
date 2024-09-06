@@ -1,3 +1,13 @@
+---
+generator: pandoc
+title: Lab AWS pt-BR
+viewport: width=device-width, initial-scale=1.0, user-scalable=yes
+---
+
+::: {#title-block-header}
+# []{#_Hlk176519052 .anchor}Lab AWS pt-BR {#lab-aws-pt-br .title}
+:::
+
 Amazon ECS e AWS Fargate
 
 ## [Sobre o Amazon ECS](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/10-about-ecs#about-amazon-ecs)
@@ -214,7 +224,6 @@ cada laboratório da seguinte forma:
 > \--region \$AWS_REGION Você deve receber a seguinte saída na linha de
 > comando.
 >
-
 > {
 >
 > \"cluster\": {
