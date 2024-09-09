@@ -622,7 +622,7 @@ serviço</p>
 </blockquote>
 <h2 id="definir-a-funç-ão-de-iam-para-o-usuário"><a
 href="https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/30-basic/600-ecs-exec#set-the-iam-role-for-the-user">Definir
-a funç ão de IAM para o usuário</a></h2>
+a função de IAM para o usuário</a></h2>
 <p>Como vamos usar o ECS Exec do nosso IDE, precisamos garantir que a
 função de IAM anexada ao IDE tenha as políticas de IAM necessárias.
 Vamos atualizar a função de IAM associada à instância do EC2 que executa
@@ -665,7 +665,7 @@ vários recursos do ECS Exec, como os registros do CloudWatch.</p>
 <h2 id="section-6"></h2>
 <h2 id="definir-a-funç-ão-de-iam-para-a-funç-ão-de-tarefa-do-ecs"><a
 href="https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/30-basic/600-ecs-exec#set-the-iam-role-for-the-ecs-task-role">Definir
-a funç ão de IAM para a funç ão de tarefa do ECS</a></h2>
+a função de IAM para a função de tarefa do ECS</a></h2>
 <p>O ECS Exec precisa de uma função de IAM de tarefa para a comunicação
 SSM. Criamos previamente essa função de IAM para a tarefa <strong>UI
 Service</strong>. Portanto, vamos apenas verificar suas permissões.</p>
