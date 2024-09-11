@@ -3598,8 +3598,7 @@ retail-store-ecs-cluster --services retail-store-ui-bg --query
 "services[0].taskDefinition" --output text)</p>
 <p>echo -e "imagem do contêiner atual: $(aws ecs
 describe-task-definition --task-definition ${ui_task_definition} --query
-"taskDefinition.containerDefinitions[0].image" --output text) \n última
-compilação: ${last_build}"</p>
+"taskDefinition.containerDefinitions[0].image" --output text) \n latest build: ${last_build}"</p>
 <p>Ao acessar o endpoint obtido com o comando abaixo, você pode
 verificar que o título do serviço de interface do usuário foi alterado
 para <strong>Retail Store Sample CodePipeline</strong>.</p>
