@@ -3611,7 +3611,7 @@ retail-store-ecs-ui \</p>
 src="media/image23.1.png"
 style="width:5.90556in;height:0.60625in" /></p>
 <p>Parabéns! Com este laboratório, você criou um pipeline de CI/CD e
-implantou um novo serviço do ECS usando a implantação azul/verde.</p>
+implantou um novo serviço do ECS usando a implantação Blue/Green .</p>
 <p>Limpeza</p>
 <p>Remova o pipeline de CI/CD.</p>
 <p>cd /home/ec2-user/environment/labs/blue-green</p>
@@ -3620,7 +3620,7 @@ implantou um novo serviço do ECS usando a implantação azul/verde.</p>
 <p>cd /home/ec2-user/environment/</p>
 <p>rm -rf retail-store-sample-app/</p>
 <p>rm -rf retail-store-sample-codecommit/</p>
-<p>Remova o serviço ECS criado para a implementação azul/verde.</p>
+<p>Remova o serviço ECS criado para a implementação blue/green.</p>
 <p>aws ecs delete-service --cluster retail-store-ecs-cluster --service
 retail-store-ui-bg --force</p>
 </body>
